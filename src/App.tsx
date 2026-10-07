@@ -113,7 +113,8 @@ export default function App() {
             </a>
           ))}
           <button onClick={toggleLang} title={t.switchLang} aria-label={t.switchLang} className="pill-btn lang-btn">
-            {t.langLabel}
+            {/* Gurmukhi and Latin glyphs sit at different heights in their line boxes; nudge each to optical centre. */}
+            <span className={lang === 'en' ? 'lang-label lang-label-pa' : 'lang-label'}>{t.langLabel}</span>
           </button>
           <button
             onClick={toggleTheme}
