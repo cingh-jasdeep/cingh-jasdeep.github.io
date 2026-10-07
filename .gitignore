@@ -1,0 +1,7 @@
+node_modules
+dist
+# Raw LinkedIn export: contains private data (connections, messages, etc.). Never commit it.
+linkedin-export*
+Basic_LinkedInDataExport*
+Complete_LinkedInDataExport*
+*.zip

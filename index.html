@@ -1,44 +1,26 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Jasdeep Singh</title>
-    <link rel="stylesheet" type="text/css" href="splash/style.css" />
+    <meta name="description" content="Portfolio of Jasdeep Singh: experience, education, projects and certifications." />
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='80'>☬</text></svg>" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Noto+Sans+Gurmukhi:wght@400;500;600&display=swap" />
+    <script>
+      // Apply saved theme/language before first paint to avoid a flash.
+      try {
+        var t = localStorage.getItem('theme');
+        if (t === 'light' || t === 'dark') document.documentElement.dataset.theme = t;
+        var l = new URLSearchParams(location.search).get('lang') || localStorage.getItem('lang');
+        if (l === 'pa') document.documentElement.lang = 'pa';
+      } catch (e) {}
+    </script>
   </head>
-  <body
-    style="
-      position: fixed;
-      inset: 0px;
-      overflow: hidden;
-      padding: 0px;
-      margin: 0px;
-      user-select: none;
-      touch-action: none;
-      font: 14px sans-serif;
-      color: red;
-    "
-  >
-    <picture id="splash">
-      <source
-        srcset="
-          splash/img/light-1x.png 1x,
-          splash/img/light-2x.png 2x,
-          splash/img/light-3x.png 3x,
-          splash/img/light-4x.png 4x
-        "
-        media="(prefers-color-scheme: light) or (prefers-color-scheme: no-preference)"
-      />
-      <source
-        srcset="
-          splash/img/dark-1x.png 1x,
-          splash/img/dark-2x.png 2x,
-          splash/img/dark-3x.png 3x,
-          splash/img/dark-4x.png 4x
-        "
-        media="(prefers-color-scheme: dark)"
-      />
-      <img class="center" aria-hidden="true" src="splash/img/light-1x.png" />
-    </picture>
-    <script src="main.dart.js" type="application/javascript"></script>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
