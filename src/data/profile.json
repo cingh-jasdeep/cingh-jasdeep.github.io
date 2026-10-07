@@ -96,21 +96,22 @@
   "education": [
     {
       "school": "Schulich School of Engineering, University of Calgary",
-      "degree": "Master of Engineering, Computer Software Engineering",
+      "degree": "Master of Engineering, Software Engineering",
       "start": "2026-01",
       "end": "2028-12"
     },
     {
       "school": "Virginia Tech",
-      "degree": "B.S., Computer Engineering",
+      "degree": "Bachelor of Science in Computer Engineering",
       "start": "2008",
       "end": "2012"
     },
     {
       "school": "Udacity",
-      "degree": "Android Nanodegree Program, Computer Software Engineering",
+      "degree": "Android Nanodegree Program",
       "start": "2018",
-      "end": "2019"
+      "end": "2019",
+      "notes": "- 8-month nanodegree in Android Application Development\n- Learnt important skills in Android Software Development"
     }
   ],
   "projects": [
@@ -176,18 +177,18 @@
   ],
   "certifications": [
     {
-      "name": "Android Developer Nanodegree Program",
-      "authority": "Udacity",
-      "url": "https://confirm.udacity.com/53FCGT6K",
-      "start": "2019-02"
-    },
-    {
       "name": "Associate Android Developer",
-      "authority": "Google for Developers",
+      "authority": "Google Developers",
       "url": "https://www.credential.net/qtiafc1z",
       "licenseNumber": "12471540",
       "start": "2019-01",
       "end": "2022-01"
+    },
+    {
+      "name": "Android Developer Nanodegree Program",
+      "authority": "Udacity",
+      "url": "https://confirm.udacity.com/53FCGT6K",
+      "start": "2019-02"
     }
   ],
   "volunteering": [],
@@ -242,20 +243,43 @@
     "Matlab",
     "Embedded Software",
     "Java",
-    "SQL"
+    "SQL",
+    "Android",
+    "Perl",
+    "PHP",
+    "Embedded C",
+    "Android SDK",
+    "Arduino",
+    "Eclipse",
+    "JavaScript",
+    "jQuery",
+    "C",
+    "Python",
+    "jQuery Mobile",
+    "Microchip PIC",
+    "C-FreeRTOS",
+    "C++ Qt",
+    "Object-Oriented Programming (OOP)",
+    "Image Editing",
+    "Linux",
+    "Android Studio",
+    "Git",
+    "Github",
+    "Vue.js",
+    "Firebase"
   ],
   "languages": [
     {
       "name": "Hindi",
-      "proficiency": "Native or Bilingual"
-    },
-    {
-      "name": "English",
-      "proficiency": "Native or Bilingual"
+      "proficiency": "Native or bilingual proficiency"
     },
     {
       "name": "Punjabi",
-      "proficiency": "Native or Bilingual"
+      "proficiency": "Native or bilingual proficiency"
+    },
+    {
+      "name": "English",
+      "proficiency": "Native or bilingual proficiency"
     }
   ]
 }
