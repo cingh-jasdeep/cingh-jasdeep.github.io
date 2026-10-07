@@ -1,8 +1,17 @@
 {
-  "name": "Jasdeep Singh",
+  "name": "Jasdeep Singh Malhotra",
+  "headline": "Software Engineering Student | Mobile and Web App Developer | Always learning.",
+  "location": "Greater Calgary Metropolitan Area",
+  "summary": "I am a software developer for mobile and web.",
   "links": [
-    { "label": "LinkedIn", "url": "https://www.linkedin.com/in/cingh-jasdeep/" },
-    { "label": "GitHub", "url": "https://github.com/cingh-jasdeep" }
+    {
+      "label": "LinkedIn",
+      "url": "https://www.linkedin.com/in/cingh-jasdeep/"
+    },
+    {
+      "label": "GitHub",
+      "url": "https://github.com/cingh-jasdeep"
+    }
   ],
   "positions": [],
   "education": [],
