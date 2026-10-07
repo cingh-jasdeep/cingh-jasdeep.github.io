@@ -116,8 +116,14 @@
   "projects": [
     {
       "title": "Gurbani Audio Player",
+      "description": "- Drafted a community-focused full-stack audiobook MVP app during the last 3 weeks of summer break\n- Gained valuable hands-on experience developing an app end-to-end with an AI-based IDE/Agent like Cursor\n- Utilized Technologies: Expo/React Native and community libraries for the frontend, Cloudflare Pages/Worker/R2 based backend to facilitate OTA updates, media and metadata hosting, and Sentry for crash monitoring",
+      "url": "https://gurbaniaudioplayer.opensikhapps.com/",
       "start": "2026-08",
-      "description": "- Drafted a community-focused full-stack audiobook MVP app during the last 3 weeks of summer break\n- Gained valuable hands-on experience developing an app end-to-end with an AI-based IDE/Agent like Cursor\n- Utilized Technologies: Expo/React Native and community libraries for the frontend, Cloudflare Pages/Worker/R2 based backend to facilitate OTA updates, media and metadata hosting, and Sentry for crash monitoring"
+      "images": [
+        "projects/gurbani-audio-player-1.jpg",
+        "projects/gurbani-audio-player-2.jpg",
+        "projects/gurbani-audio-player-3.jpg"
+      ]
     },
     {
       "title": "Parts, Quality and Dispatch Scanner Web App",

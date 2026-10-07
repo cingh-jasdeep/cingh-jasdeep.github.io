@@ -23,6 +23,8 @@ export interface Project {
   url?: string
   start?: string
   end?: string
+  /** Paths under public/, e.g. "projects/app-1.jpg". */
+  images?: string[]
 }
 
 export interface Certification {

@@ -195,6 +195,13 @@ export default function App() {
               {p.projects.map((x, i) => {
                 const body = (
                   <>
+                    {x.images && x.images.length > 0 && (
+                      <span className="card-media">
+                        {x.images.map((src) => (
+                          <img key={src} src={src} alt="" loading="lazy" />
+                        ))}
+                      </span>
+                    )}
                     <span className="card-title">{x.title}</span>
                     {formatRange(x.start, x.end, lang) && <span className="date">{formatRange(x.start, x.end, lang)}</span>}
                     {x.description && <span className="card-body">{x.description}</span>}

@@ -397,6 +397,21 @@ a.card:hover,
   text-decoration: none;
 }
 
+.card-media {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+.card-media img {
+  flex: 1 1 0;
+  min-width: 0;
+  max-height: 240px;
+  object-fit: cover;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+}
+
 .card-title {
   font-size: 18px;
   font-weight: 600;
