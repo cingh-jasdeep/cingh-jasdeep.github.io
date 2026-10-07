@@ -35,8 +35,15 @@ function initialTheme(): Theme {
   return matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'
 }
 
-/** "Bank of America" -> "BA", "Storipress" -> "St". */
+/** "Bank of America" -> "BA", "Storipress" -> "St", "ਜਸਦੀਪ ਸਿੰਘ" -> "ਜਸ". */
 function initials(name: string): string {
+  if (/^\p{Script=Gurmukhi}/u.test(name)) {
+    return name
+      .split(/\s+/)
+      .slice(0, 2)
+      .map((w) => w[0])
+      .join('')
+  }
   const words = name.split(/[\s,]+/).filter((w) => /^[A-Z]/.test(w))
   if (words.length >= 2) return words[0][0] + words[1][0]
   const w = words[0] ?? name
@@ -59,7 +66,7 @@ export default function App() {
   const [theme, setTheme] = useState<Theme>(initialTheme)
   const t = strings[lang]
   const p = getProfile(lang)
-  const monogram = initials(getProfile('en').name)
+  const monogram = initials(p.name)
 
   useEffect(() => {
     document.documentElement.lang = lang
