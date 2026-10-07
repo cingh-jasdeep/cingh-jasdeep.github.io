@@ -13,12 +13,131 @@
       "url": "https://github.com/cingh-jasdeep"
     }
   ],
-  "positions": [],
-  "education": [],
+  "positions": [
+    {
+      "title": "AI Trainer Coding",
+      "company": "DataAnnotation",
+      "location": "Calgary, AB",
+      "start": "2026-05",
+      "description": "Work with cutting-edge AI models to help them improve and avoid mistakes in performing complex software development tasks"
+    },
+    {
+      "title": "Software Product Manager and Developer",
+      "company": "Malhotra Electronics Private Limited",
+      "location": "Greater Noida",
+      "start": "2022-09",
+      "end": "2025-12",
+      "description": "- Managed cloud deployment of digital signage application, controlling over 6000 terminals\n- Constructed various internal applications for effective reporting of digital signage usage, by ingesting daily data through email reports and presenting relevant data to clients\n- Devised an offline signage player app for low-end Android screens, along with a remote-control app, deployed in thousands of units"
+    },
+    {
+      "title": "Angular Developer",
+      "company": "Cocolevio LLC",
+      "location": "Noida",
+      "start": "2022-07",
+      "end": "2022-09",
+      "description": "- Constructed an e-mail-based customer service module using Angular, AWS Amplify, AWS Lambda and AWS SES"
+    },
+    {
+      "title": "Mobile Apps and Programming Instructor",
+      "company": "Eternal University, Baru Sahib Sirmour",
+      "location": "India",
+      "start": "2021-08",
+      "end": "2022-01",
+      "description": "- Conducted 2 University classes for Programming Problem Solving and Mobile App Development; suggested simple lifestyle tips, in line with organization leaders, along with facilitating technical skills"
+    },
+    {
+      "title": "Frontend Software Developer",
+      "company": "Storipress",
+      "start": "2021-05",
+      "end": "2021-07",
+      "description": "- Developed and debugged over 20 builder blocks for a web publishing platform in VueJS; worked with senior team to summarize common issues with other colleagues' code and created new lint rules"
+    },
+    {
+      "title": "Software Developer",
+      "company": "DrillMaps",
+      "location": "Noida",
+      "start": "2019-03",
+      "end": "2020-03",
+      "description": "- Developed Geographic Information System (GIS) apps in VueJS and Android at a startup; worked exclusively on Android and collaboratively in VueJS in a team of 4, including a graphic designer, an iOS developer and a web developer"
+    },
+    {
+      "title": "IT Support and Media Assistant",
+      "company": "GURUDWARA PRABH MILNE KA CHAO INC",
+      "location": "Moga",
+      "start": "2014-08",
+      "end": "2017-01",
+      "description": "Served as a part of the IT team; developed main website and mobile app; edited video sermons; maintained video archives; conducted live streaming for special events"
+    },
+    {
+      "title": "Software Development Engineer",
+      "company": "Johnson Controls",
+      "location": "Waynesboro, PA",
+      "start": "2013-02",
+      "end": "2013-08",
+      "description": "- Built kiosk-based software to retrieve critical information from local refrigeration controllers"
+    },
+    {
+      "title": "Undergraduate Research Assistant",
+      "company": "CESCA, Virginia Tech",
+      "location": "Blacksburg",
+      "start": "2011-03",
+      "end": "2011-12",
+      "description": "Designed, debugged and tested code for EmCodeSyn, a SIGNAL-based embedded software synthesis tool with Qt GUI and a C++ backend; worked on refining GUI elements to maintain its support with updated core external applications"
+    },
+    {
+      "title": "Dev/App Programming Analyst",
+      "company": "Bank of America",
+      "location": "Calabasas, CA",
+      "start": "2011-06",
+      "end": "2011-08",
+      "description": "Utilized MS SharePoint 2007 to create new workspace templates to aid weekly software deployments for multiple teams; gained knowledge about working and collaborating with information in an enterprise-level virtual environment"
+    }
+  ],
+  "education": [
+    {
+      "school": "Schulich School of Engineering, University of Calgary",
+      "degree": "Master of Engineering, Computer Software Engineering",
+      "start": "2026-01",
+      "end": "2028-12"
+    },
+    {
+      "school": "Virginia Tech",
+      "degree": "B.S., Computer Engineering",
+      "start": "2008",
+      "end": "2012"
+    },
+    {
+      "school": "Udacity",
+      "degree": "Android Nanodegree Program, Computer Software Engineering",
+      "start": "2018",
+      "end": "2019"
+    }
+  ],
   "projects": [],
-  "certifications": [],
+  "certifications": [
+    {
+      "name": "Android Developer Nanodegree Program"
+    }
+  ],
   "volunteering": [],
   "honors": [],
-  "skills": [],
-  "languages": []
+  "skills": [
+    "Full-Stack Development",
+    "AI Training",
+    "Geofencing"
+  ],
+  "languages": [
+    {
+      "name": "Hindi",
+      "proficiency": "Native or Bilingual"
+    },
+    {
+      "name": "English",
+      "proficiency": "Native or Bilingual"
+    },
+    {
+      "name": "Punjabi",
+      "proficiency": "Native or Bilingual"
+    }
+  ]
 }
