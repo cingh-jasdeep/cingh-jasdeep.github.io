@@ -1,0 +1,261 @@
+{
+  "name": "Jasdeep Singh Malhotra",
+  "headline": "Software Engineering Student | Mobile and Web App Developer | Always learning.",
+  "location": "Greater Calgary Metropolitan Area",
+  "summary": "I am a software developer for mobile and web.",
+  "links": [
+    {
+      "label": "LinkedIn",
+      "url": "https://www.linkedin.com/in/cingh-jasdeep/"
+    },
+    {
+      "label": "GitHub",
+      "url": "https://github.com/cingh-jasdeep"
+    }
+  ],
+  "positions": [
+    {
+      "title": "AI Trainer Coding",
+      "company": "DataAnnotation",
+      "location": "Calgary, AB",
+      "start": "2026-05",
+      "description": "Work with cutting-edge AI models to help them improve and avoid mistakes in performing complex software development tasks"
+    },
+    {
+      "title": "Software Product Manager and Developer",
+      "company": "Malhotra Electronics Private Limited",
+      "location": "Greater Noida",
+      "start": "2022-09",
+      "end": "2025-12",
+      "description": "- Managed cloud deployment of digital signage application, controlling over 6000 terminals\n- Constructed various internal applications for effective reporting of digital signage usage, by ingesting daily data through email reports and presenting relevant data to clients\n- Devised an offline signage player app for low-end Android screens, along with a remote-control app, deployed in thousands of units"
+    },
+    {
+      "title": "Angular Developer",
+      "company": "Cocolevio LLC",
+      "location": "Noida",
+      "start": "2022-07",
+      "end": "2022-09",
+      "description": "- Constructed an e-mail-based customer service module using Angular, AWS Amplify, AWS Lambda and AWS SES"
+    },
+    {
+      "title": "Mobile Apps and Programming Instructor",
+      "company": "Eternal University, Baru Sahib Sirmour",
+      "location": "India",
+      "start": "2021-08",
+      "end": "2022-01",
+      "description": "- Conducted 2 University classes for Programming Problem Solving and Mobile App Development; suggested simple lifestyle tips, in line with organization leaders, along with facilitating technical skills"
+    },
+    {
+      "title": "Frontend Software Developer",
+      "company": "Storipress",
+      "start": "2021-05",
+      "end": "2021-07",
+      "description": "- Developed and debugged over 20 builder blocks for a web publishing platform in VueJS; worked with senior team to summarize common issues with other colleagues' code and created new lint rules"
+    },
+    {
+      "title": "Software Developer",
+      "company": "DrillMaps",
+      "location": "Noida",
+      "start": "2019-03",
+      "end": "2020-03",
+      "description": "- Developed Geographic Information System (GIS) apps in VueJS and Android at a startup; worked exclusively on Android and collaboratively in VueJS in a team of 4, including a graphic designer, an iOS developer and a web developer"
+    },
+    {
+      "title": "IT Support and Media Assistant",
+      "company": "GURUDWARA PRABH MILNE KA CHAO INC",
+      "location": "Moga",
+      "start": "2014-08",
+      "end": "2017-01",
+      "description": "Served as a part of the IT team; developed main website and mobile app; edited video sermons; maintained video archives; conducted live streaming for special events"
+    },
+    {
+      "title": "Software Development Engineer",
+      "company": "Johnson Controls",
+      "location": "Waynesboro, PA",
+      "start": "2013-02",
+      "end": "2013-08",
+      "description": "- Built kiosk-based software to retrieve critical information from local refrigeration controllers"
+    },
+    {
+      "title": "Undergraduate Research Assistant",
+      "company": "CESCA, Virginia Tech",
+      "location": "Blacksburg",
+      "start": "2011-03",
+      "end": "2011-12",
+      "description": "Designed, debugged and tested code for EmCodeSyn, a SIGNAL-based embedded software synthesis tool with Qt GUI and a C++ backend; worked on refining GUI elements to maintain its support with updated core external applications"
+    },
+    {
+      "title": "Dev/App Programming Analyst",
+      "company": "Bank of America",
+      "location": "Calabasas, CA",
+      "start": "2011-06",
+      "end": "2011-08",
+      "description": "Utilized MS SharePoint 2007 to create new workspace templates to aid weekly software deployments for multiple teams; gained knowledge about working and collaborating with information in an enterprise-level virtual environment"
+    }
+  ],
+  "education": [
+    {
+      "school": "Schulich School of Engineering, University of Calgary",
+      "degree": "Master of Engineering, Computer Software Engineering",
+      "start": "2026-01",
+      "end": "2028-12"
+    },
+    {
+      "school": "Virginia Tech",
+      "degree": "B.S., Computer Engineering",
+      "start": "2008",
+      "end": "2012"
+    },
+    {
+      "school": "Udacity",
+      "degree": "Android Nanodegree Program, Computer Software Engineering",
+      "start": "2018",
+      "end": "2019"
+    }
+  ],
+  "projects": [
+    {
+      "title": "Gurbani Audio Player",
+      "description": "- Drafted a community-focused full-stack audiobook MVP app during the last 3 weeks of summer break\n- Gained valuable hands-on experience developing an app end-to-end with an AI-based IDE/Agent like Cursor\n- Utilized Technologies: Expo/React Native and community libraries for the frontend, Cloudflare Pages/Worker/R2 based backend to facilitate OTA updates, media and metadata hosting, and Sentry for crash monitoring",
+      "url": "https://gurbaniaudioplayer.opensikhapps.com/",
+      "start": "2026-08",
+      "images": [
+        "projects/gurbani-audio-player-1.jpg",
+        "projects/gurbani-audio-player-2.jpg",
+        "projects/gurbani-audio-player-3.jpg"
+      ]
+    },
+    {
+      "title": "Parts, Quality and Dispatch Scanner Web App",
+      "start": "2024-10",
+      "url": "https://docs.google.com/presentation/d/1HIC2x_BUr4GNVKvCCyxqq8_XKxhFEBOKlxKODVoXLDc/edit",
+      "description": "- Constructed and deployed a web app across 8 production lines to record internal part serial numbers and quality stages for each unit, and also across 4 dispatch locations to record unit serial numbers and other dispatch details\n- Built dashboards in web app to display real-time production and dispatch information to 3 plant heads and 3 members in top management team\n- Devised a mechanism to send dispatch information at completion, and daily summary to specified recipients"
+    },
+    {
+      "title": "Offline Digital Signage Android App",
+      "start": "2022-09",
+      "end": "2025-12",
+      "url": "https://docs.google.com/document/d/1WSsusfJNSkGwBmMu9ZnpTkyj8YqwRxpRz0I16lb-cGk/edit",
+      "description": "- Created digital signage app for low-end Android screens, where media can be loaded using USB Flash drive or Flutter-based remote-control app"
+    },
+    {
+      "title": "Digital Signage Portfolio Website",
+      "start": "2022-11",
+      "end": "2025-02",
+      "url": "https://digisign.tech/",
+      "description": "- Built a responsive, Jamstack website showcasing over 10 types of digital signage hardware, signage software and professionally designed multi-page signage templates\n- Utilized Technologies: Gatsby for static site generation, React for front-end, Google Sheets API for simple management of signage templates"
+    },
+    {
+      "title": "Gurudwara Sahib Website & Mobile App",
+      "start": "2022-05",
+      "end": "2022-06",
+      "url": "https://wahegurulive.com/",
+      "description": "- Constructed website and mobile app for a Sikh place of worship with custom design, featuring events and notifications for daily sermons\n- Utilized Technologies: Nuxtjs for front-end, TinaCMS for updating events, media library and daily sermons in a user-friendly admin panel, OneSignal for push notifications, Flutter for cross-platform mobile app and GitHub Actions for CI"
+    },
+    {
+      "title": "Orbismaps Android App",
+      "start": "2019-12",
+      "end": "2020-03",
+      "url": "https://drillmaps.com/orbis",
+      "description": "- Designed an Android-based Geographic Information System GIS data collection app at a startup"
+    },
+    {
+      "title": "Gurudwara Time Android App",
+      "start": "2019-01",
+      "end": "2019-02",
+      "url": "https://github.com/cingh-jasdeep/Gurudwara-Time",
+      "description": "- Devised an app to automatically silence a phone inside a Sikh place of worship, based on device location and geofencing places of interest refreshed daily\n- Utilized Technologies: Android SDK (Background location and Geofencing), Google Places API to fetch locations of nearby places of interest and to create geofences, SQLite for local storage"
+    },
+    {
+      "title": "EmCodeSyn",
+      "start": "2011-03",
+      "end": "2011-12",
+      "url": "https://vtechworks.lib.vt.edu/items/da87382b-becc-43cb-9915-d9f4c704f4bf",
+      "description": "Software Synthesis Tool"
+    }
+  ],
+  "certifications": [
+    {
+      "name": "Android Developer Nanodegree Program",
+      "authority": "Udacity",
+      "url": "https://confirm.udacity.com/53FCGT6K",
+      "start": "2019-02"
+    },
+    {
+      "name": "Associate Android Developer",
+      "authority": "Google for Developers",
+      "url": "https://www.credential.net/qtiafc1z",
+      "licenseNumber": "12471540",
+      "start": "2019-01",
+      "end": "2022-01"
+    }
+  ],
+  "volunteering": [],
+  "honors": [],
+  "skills": [
+    "Full-Stack Development",
+    "AI Training",
+    "Geofencing",
+    "WearOS",
+    "OneSignal",
+    "TinaCMS",
+    "GitHub Actions",
+    "Google Sheets",
+    "React.js",
+    "gRPC",
+    "Sheetjs",
+    "Zeptomail",
+    "Cloud Firestore",
+    "Algolia",
+    "Video Editing",
+    "Live Video Streaming",
+    "WordPress",
+    "Qt",
+    "Bootstrap (Framework)",
+    "Nginx",
+    "MySQL",
+    "Teaching",
+    "AWS Lambda",
+    "AWS SES",
+    "AWS Amplify",
+    "TypeScript",
+    "Cascading Style Sheets (CSS)",
+    "Flutter",
+    "HTML",
+    "Tailwind CSS",
+    "GatsbyJS",
+    "Kotlin",
+    "Nuxt",
+    "Haraka",
+    "Supabase",
+    "Digital Signage",
+    "Android Tv",
+    "Python (Programming Language)",
+    "Angular",
+    "Android Development",
+    "Software Development",
+    "Programming",
+    "Simulations",
+    "C++",
+    "SharePoint",
+    "Verilog",
+    "Matlab",
+    "Embedded Software",
+    "Java",
+    "SQL"
+  ],
+  "languages": [
+    {
+      "name": "Hindi",
+      "proficiency": "Native or Bilingual"
+    },
+    {
+      "name": "English",
+      "proficiency": "Native or Bilingual"
+    },
+    {
+      "name": "Punjabi",
+      "proficiency": "Native or Bilingual"
+    }
+  ]
+}
