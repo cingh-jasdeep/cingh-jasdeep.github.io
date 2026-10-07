@@ -75,6 +75,15 @@ export interface Profile {
   languages: Language[]
 }
 
+/** Site-only extras that aren't on LinkedIn (src/data/site.json). */
+export interface SiteConfig {
+  gurbani?: { text: string; meaning: string } | null
+  /** Path under public/, e.g. "photo.jpg". */
+  photo?: string | null
+  /** Path under public/, e.g. "resume.pdf". */
+  resumeUrl?: string | null
+}
+
 type DeepPartial<T> = T extends (infer U)[]
   ? (DeepPartial<U> | null)[]
   : T extends object

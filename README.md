@@ -21,6 +21,11 @@ All content comes from my LinkedIn profile. **LinkedIn is the single source of t
    (it's git-ignored).
 3. Review with `npm run dev`, then commit and push. GitHub Actions deploys automatically.
 
+## Things that aren't on LinkedIn
+
+`src/data/site.json` holds site-only extras: the Gurbani line shown above the name, and
+optional `photo` / `resumeUrl` (put the files in `public/`, e.g. `"photo": "photo.jpg"`).
+
 ## Punjabi
 
 UI text is translated in `src/i18n.ts`. Profile content falls back to English; to translate

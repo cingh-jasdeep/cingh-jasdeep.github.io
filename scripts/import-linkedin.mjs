@@ -4,6 +4,7 @@
 //   npm run import:linkedin -- path/to/Basic_LinkedInDataExport.zip
 //   npm run import:linkedin -- path/to/extracted-folder
 //
+// Entries keep the order LinkedIn exports them in (the profile's order).
 // Only public-profile fields are read; addresses, birth date, connections and
 // messages in the export are ignored.
 import { existsSync, readdirSync, readFileSync, statSync, writeFileSync } from 'node:fs'
@@ -97,10 +98,6 @@ function clean(obj) {
   return Object.fromEntries(Object.entries(obj).filter(([, v]) => v !== undefined && v !== ''))
 }
 
-/** Most recent first; ongoing entries (no end) on top. */
-const byRecency = (a, b) =>
-  (b.end ? 0 : 1) - (a.end ? 0 : 1) || (b.end ?? '').localeCompare(a.end ?? '') || (b.start ?? '').localeCompare(a.start ?? '')
-
 const files = loadFiles(input)
 if (!files.size) {
   console.error('No CSV files found in', input)
@@ -134,8 +131,7 @@ const profile = clean({
         end: date(r['Finished On']),
         description: r['Description'],
       }),
-    )
-    .sort(byRecency),
+    ),
   education: table(files, 'Education.csv', 'School Name')
     .map((r) =>
       clean({
@@ -146,8 +142,7 @@ const profile = clean({
         notes: r['Notes'],
         activities: r['Activities'],
       }),
-    )
-    .sort(byRecency),
+    ),
   projects: table(files, 'Projects.csv', 'Title').map((r) =>
     clean({
       title: r['Title'],
@@ -177,8 +172,7 @@ const profile = clean({
         end: date(r['Finished On']),
         description: r['Description'],
       }),
-    )
-    .sort(byRecency),
+    ),
   honors: table(files, 'Honors.csv', 'Title').map((r) =>
     clean({ title: r['Title'], issued: date(r['Issued On']), description: r['Description'] }),
   ),
