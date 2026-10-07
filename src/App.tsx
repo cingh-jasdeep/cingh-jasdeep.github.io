@@ -137,11 +137,7 @@ export default function App() {
           )}
         </div>
         <div className="hero-text">
-          {site.gurbani && (
-            <p className="gurbani" lang="pa" title={site.gurbani.meaning}>
-              {site.gurbani.text}
-            </p>
-          )}
+          {site.gurbani && <Gurbani text={site.gurbani.text} meaning={site.gurbani.meaning} />}
           <h1>{p.name}</h1>
           {p.headline && <p className="headline">{p.headline}</p>}
           {p.location && <p className="muted">{p.location}</p>}
@@ -364,6 +360,33 @@ function Section({ id, title, children }: { id: string; title: string; children:
       </h2>
       {children}
     </section>
+  )
+}
+
+/**
+ * Gurbani line with its English meaning in a tooltip. Shows on hover or keyboard focus,
+ * and toggles on tap, since touch screens have no hover (the native `title` tooltip is
+ * slow on desktop and never shows on phones).
+ */
+function Gurbani({ text, meaning }: { text: string; meaning: string }) {
+  const [open, setOpen] = useState(false)
+  return (
+    <p className="gurbani">
+      <button
+        type="button"
+        className={open ? 'gurbani-line is-open' : 'gurbani-line'}
+        lang="pa"
+        aria-describedby="gurbani-meaning"
+        aria-expanded={open}
+        onClick={() => setOpen(!open)}
+        onBlur={() => setOpen(false)}
+      >
+        {text}
+        <span id="gurbani-meaning" role="tooltip" lang="en" className="gurbani-meaning">
+          {meaning}
+        </span>
+      </button>
+    </p>
   )
 }
 
