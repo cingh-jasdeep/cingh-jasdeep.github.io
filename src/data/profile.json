@@ -1,5 +1,5 @@
 {
-  "name": "Jasdeep Singh Malhotra",
+  "name": "Jasdeep Singh",
   "headline": "Software Engineering Student | Mobile and Web App Developer | Always learning.",
   "location": "Greater Calgary Metropolitan Area",
   "summary": "I am a software developer for mobile and web.",
@@ -110,8 +110,7 @@
       "school": "Udacity",
       "degree": "Android Nanodegree Program",
       "start": "2018",
-      "end": "2019",
-      "notes": "- 8-month nanodegree in Android Application Development\n- Learnt important skills in Android Software Development"
+      "end": "2019"
     }
   ],
   "projects": [
